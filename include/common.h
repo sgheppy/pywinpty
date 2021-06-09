@@ -13,7 +13,7 @@
 #include <iostream>
 
 
-#ifdef ENABLE_WINPTY
+#if ENABLE_WINPTY==1
 static constexpr bool WINPTY_ENABLED = true;
 #else
 static constexpr bool WINPTY_ENABLED = false;
